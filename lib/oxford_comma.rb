@@ -11,7 +11,9 @@ def oxford_comma(array)
       if idx == last_ele_idx
         str += "and #{ele}"
       else
-      str += "#{ele}, "
+        str += "#{ele}, "
+      end
     end
+    return str
   end
 end
